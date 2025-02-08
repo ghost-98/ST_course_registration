@@ -3,9 +3,9 @@ from selenium.webdriver.common.by import By
 
 import time, sys
 
-from course_registration_macro import register_lectures
+from code.course_registration_macro import register_lectures
 from save_course_cart_macro import save_course_cart
-from check_my_lecture import check_my_lecture
+from code.check_my_lecture import check_my_lecture
 
 
 print("==================")
